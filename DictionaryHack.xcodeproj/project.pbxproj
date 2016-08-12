@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C02A8431D5E7AE500E4086F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02A8421D5E7AE500E4086F /* AppDelegate.swift */; };
+		5C02A8451D5E7AE500E4086F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02A8441D5E7AE500E4086F /* ViewController.swift */; };
+		5C02A8481D5E7AE500E4086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C02A8461D5E7AE500E4086F /* Main.storyboard */; };
+		5C02A84A1D5E7AE500E4086F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C02A8491D5E7AE500E4086F /* Assets.xcassets */; };
+		5C02A84D1D5E7AE500E4086F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C02A84B1D5E7AE500E4086F /* LaunchScreen.storyboard */; };
+		5C02A8581D5E7AE500E4086F /* DictionaryHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02A8571D5E7AE500E4086F /* DictionaryHackTests.swift */; };
+		5C02A8631D5E7AE500E4086F /* DictionaryHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02A8621D5E7AE500E4086F /* DictionaryHackUITests.swift */; };
+		5C02A8711D5E7C1700E4086F /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C02A8701D5E7C1700E4086F /* words.txt */; };
+		5C02A8731D5E7D8500E4086F /* TumblerHacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02A8721D5E7D8500E4086F /* TumblerHacker.swift */; };
+		5C02A8751D5E82DA00E4086F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02A8741D5E82DA00E4086F /* String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C02A8541D5E7AE500E4086F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C02A8371D5E7AE500E4086F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C02A83E1D5E7AE500E4086F;
+			remoteInfo = DictionaryHack;
+		};
+		5C02A85F1D5E7AE500E4086F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C02A8371D5E7AE500E4086F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C02A83E1D5E7AE500E4086F;
+			remoteInfo = DictionaryHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C02A83F1D5E7AE500E4086F /* DictionaryHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02A8421D5E7AE500E4086F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C02A8441D5E7AE500E4086F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C02A8471D5E7AE500E4086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C02A8491D5E7AE500E4086F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C02A84C1D5E7AE500E4086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C02A84E1D5E7AE500E4086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C02A8531D5E7AE500E4086F /* DictionaryHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02A8571D5E7AE500E4086F /* DictionaryHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryHackTests.swift; sourceTree = "<group>"; };
+		5C02A8591D5E7AE500E4086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C02A85E1D5E7AE500E4086F /* DictionaryHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02A8621D5E7AE500E4086F /* DictionaryHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryHackUITests.swift; sourceTree = "<group>"; };
+		5C02A8641D5E7AE500E4086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C02A8701D5E7C1700E4086F /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		5C02A8721D5E7D8500E4086F /* TumblerHacker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblerHacker.swift; sourceTree = "<group>"; };
+		5C02A8741D5E82DA00E4086F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C02A83C1D5E7AE500E4086F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02A8501D5E7AE500E4086F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02A85B1D5E7AE500E4086F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C02A8361D5E7AE500E4086F = {
+			isa = PBXGroup;
+			children = (
+				5C02A8411D5E7AE500E4086F /* DictionaryHack */,
+				5C02A8561D5E7AE500E4086F /* DictionaryHackTests */,
+				5C02A8611D5E7AE500E4086F /* DictionaryHackUITests */,
+				5C02A8401D5E7AE500E4086F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C02A8401D5E7AE500E4086F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C02A83F1D5E7AE500E4086F /* DictionaryHack.app */,
+				5C02A8531D5E7AE500E4086F /* DictionaryHackTests.xctest */,
+				5C02A85E1D5E7AE500E4086F /* DictionaryHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C02A8411D5E7AE500E4086F /* DictionaryHack */ = {
+			isa = PBXGroup;
+			children = (
+				5C02A8421D5E7AE500E4086F /* AppDelegate.swift */,
+				5C02A8441D5E7AE500E4086F /* ViewController.swift */,
+				5C02A8461D5E7AE500E4086F /* Main.storyboard */,
+				5C02A8721D5E7D8500E4086F /* TumblerHacker.swift */,
+				5C02A8701D5E7C1700E4086F /* words.txt */,
+				5C02A8741D5E82DA00E4086F /* String.swift */,
+				5C02A8491D5E7AE500E4086F /* Assets.xcassets */,
+				5C02A84B1D5E7AE500E4086F /* LaunchScreen.storyboard */,
+				5C02A84E1D5E7AE500E4086F /* Info.plist */,
+			);
+			path = DictionaryHack;
+			sourceTree = "<group>";
+		};
+		5C02A8561D5E7AE500E4086F /* DictionaryHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C02A8571D5E7AE500E4086F /* DictionaryHackTests.swift */,
+				5C02A8591D5E7AE500E4086F /* Info.plist */,
+			);
+			path = DictionaryHackTests;
+			sourceTree = "<group>";
+		};
+		5C02A8611D5E7AE500E4086F /* DictionaryHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C02A8621D5E7AE500E4086F /* DictionaryHackUITests.swift */,
+				5C02A8641D5E7AE500E4086F /* Info.plist */,
+			);
+			path = DictionaryHackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C02A83E1D5E7AE500E4086F /* DictionaryHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C02A8671D5E7AE500E4086F /* Build configuration list for PBXNativeTarget "DictionaryHack" */;
+			buildPhases = (
+				5C02A83B1D5E7AE500E4086F /* Sources */,
+				5C02A83C1D5E7AE500E4086F /* Frameworks */,
+				5C02A83D1D5E7AE500E4086F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryHack;
+			productName = DictionaryHack;
+			productReference = 5C02A83F1D5E7AE500E4086F /* DictionaryHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C02A8521D5E7AE500E4086F /* DictionaryHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C02A86A1D5E7AE500E4086F /* Build configuration list for PBXNativeTarget "DictionaryHackTests" */;
+			buildPhases = (
+				5C02A84F1D5E7AE500E4086F /* Sources */,
+				5C02A8501D5E7AE500E4086F /* Frameworks */,
+				5C02A8511D5E7AE500E4086F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C02A8551D5E7AE500E4086F /* PBXTargetDependency */,
+			);
+			name = DictionaryHackTests;
+			productName = DictionaryHackTests;
+			productReference = 5C02A8531D5E7AE500E4086F /* DictionaryHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C02A85D1D5E7AE500E4086F /* DictionaryHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C02A86D1D5E7AE500E4086F /* Build configuration list for PBXNativeTarget "DictionaryHackUITests" */;
+			buildPhases = (
+				5C02A85A1D5E7AE500E4086F /* Sources */,
+				5C02A85B1D5E7AE500E4086F /* Frameworks */,
+				5C02A85C1D5E7AE500E4086F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C02A8601D5E7AE500E4086F /* PBXTargetDependency */,
+			);
+			name = DictionaryHackUITests;
+			productName = DictionaryHackUITests;
+			productReference = 5C02A85E1D5E7AE500E4086F /* DictionaryHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C02A8371D5E7AE500E4086F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = OpenX;
+				TargetAttributes = {
+					5C02A83E1D5E7AE500E4086F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5C02A8521D5E7AE500E4086F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C02A83E1D5E7AE500E4086F;
+					};
+					5C02A85D1D5E7AE500E4086F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C02A83E1D5E7AE500E4086F;
+					};
+				};
+			};
+			buildConfigurationList = 5C02A83A1D5E7AE500E4086F /* Build configuration list for PBXProject "DictionaryHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C02A8361D5E7AE500E4086F;
+			productRefGroup = 5C02A8401D5E7AE500E4086F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C02A83E1D5E7AE500E4086F /* DictionaryHack */,
+				5C02A8521D5E7AE500E4086F /* DictionaryHackTests */,
+				5C02A85D1D5E7AE500E4086F /* DictionaryHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C02A83D1D5E7AE500E4086F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02A84D1D5E7AE500E4086F /* LaunchScreen.storyboard in Resources */,
+				5C02A84A1D5E7AE500E4086F /* Assets.xcassets in Resources */,
+				5C02A8711D5E7C1700E4086F /* words.txt in Resources */,
+				5C02A8481D5E7AE500E4086F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02A8511D5E7AE500E4086F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02A85C1D5E7AE500E4086F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C02A83B1D5E7AE500E4086F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02A8731D5E7D8500E4086F /* TumblerHacker.swift in Sources */,
+				5C02A8451D5E7AE500E4086F /* ViewController.swift in Sources */,
+				5C02A8751D5E82DA00E4086F /* String.swift in Sources */,
+				5C02A8431D5E7AE500E4086F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02A84F1D5E7AE500E4086F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02A8581D5E7AE500E4086F /* DictionaryHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02A85A1D5E7AE500E4086F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02A8631D5E7AE500E4086F /* DictionaryHackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C02A8551D5E7AE500E4086F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C02A83E1D5E7AE500E4086F /* DictionaryHack */;
+			targetProxy = 5C02A8541D5E7AE500E4086F /* PBXContainerItemProxy */;
+		};
+		5C02A8601D5E7AE500E4086F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C02A83E1D5E7AE500E4086F /* DictionaryHack */;
+			targetProxy = 5C02A85F1D5E7AE500E4086F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C02A8461D5E7AE500E4086F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C02A8471D5E7AE500E4086F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C02A84B1D5E7AE500E4086F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C02A84C1D5E7AE500E4086F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C02A8651D5E7AE500E4086F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C02A8661D5E7AE500E4086F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C02A8681D5E7AE500E4086F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DictionaryHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenX.DictionaryHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C02A8691D5E7AE500E4086F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DictionaryHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenX.DictionaryHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C02A86B1D5E7AE500E4086F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DictionaryHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenX.DictionaryHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictionaryHack.app/DictionaryHack";
+			};
+			name = Debug;
+		};
+		5C02A86C1D5E7AE500E4086F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DictionaryHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenX.DictionaryHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictionaryHack.app/DictionaryHack";
+			};
+			name = Release;
+		};
+		5C02A86E1D5E7AE500E4086F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DictionaryHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenX.DictionaryHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DictionaryHack;
+			};
+			name = Debug;
+		};
+		5C02A86F1D5E7AE500E4086F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DictionaryHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenX.DictionaryHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DictionaryHack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C02A83A1D5E7AE500E4086F /* Build configuration list for PBXProject "DictionaryHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02A8651D5E7AE500E4086F /* Debug */,
+				5C02A8661D5E7AE500E4086F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C02A8671D5E7AE500E4086F /* Build configuration list for PBXNativeTarget "DictionaryHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02A8681D5E7AE500E4086F /* Debug */,
+				5C02A8691D5E7AE500E4086F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C02A86A1D5E7AE500E4086F /* Build configuration list for PBXNativeTarget "DictionaryHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02A86B1D5E7AE500E4086F /* Debug */,
+				5C02A86C1D5E7AE500E4086F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C02A86D1D5E7AE500E4086F /* Build configuration list for PBXNativeTarget "DictionaryHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02A86E1D5E7AE500E4086F /* Debug */,
+				5C02A86F1D5E7AE500E4086F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C02A8371D5E7AE500E4086F /* Project object */;
+}
