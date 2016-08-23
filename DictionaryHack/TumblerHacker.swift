@@ -11,10 +11,10 @@ import Foundation
 class TumblerHacker {
     
     let tumblers = [
-        ["A", "B", "C", "D", "E", "F", "G"],
-        ["A", "B", "C", "D", "E", "F", "G"],
-        ["A", "B", "C", "D", "E", "F", "G"],
-        ["A", "B", "C", "D", "E", "F", "G"]
+        ["D", "M", "R", "F", "B", "L", "P", "W", "S", "T"],
+        ["A", "I", "O", "L", "E", "H", "W", "R", "Y", "U"],
+        ["M", "T", "N", "S", "K", "O", "A", "L", "E", "R"],
+        ["M", "S", "T", "E", "P", "Y", "L", "D", "G", "K"]
     ]
     
     private func getWordsFileContents() -> String {
